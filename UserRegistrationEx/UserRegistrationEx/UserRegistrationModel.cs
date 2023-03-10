@@ -11,5 +11,6 @@ namespace UserRegistrationEx
     {
         public Regex firstName = new Regex(@"^[A-Z][a-z]{3,}?");
         public Regex lastName = new Regex(@"^[A-Z][a-z]{3,}?");
+        public Regex email = new Regex(@"^[a-zA-Z]{3,}[.+-_]{0,1}[0-9]{0,}[@][a-zA-Z]+[.][a-z]{2,3}([.][a-z]{2}){0,1}$");
     }
 }

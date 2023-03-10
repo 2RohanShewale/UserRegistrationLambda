@@ -13,6 +13,7 @@ namespace UserRegistrationEx
             UserRegistration userRegistration = new UserRegistration();
             userRegistration.ValidateFirstName("Rohan");
             userRegistration.ValidateLastName("Shewale");
+            userRegistration.ValidateEmail("rohanshewale50@gmail.com");
             Console.ReadKey();
         }
     }
