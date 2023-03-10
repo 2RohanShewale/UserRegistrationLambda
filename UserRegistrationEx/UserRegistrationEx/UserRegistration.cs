@@ -80,5 +80,16 @@ namespace UserRegistrationEx
                 Console.WriteLine("It is not valid.");
             }
         }
+        public void ValidatePasswordThree(string password)
+        {
+            if (registrationModels.Any(x => x.PasswordRuleThree.IsMatch(password)))
+            {
+                Console.WriteLine("It is valid.");
+            }
+            else
+            {
+                Console.WriteLine("It is not valid.");
+            }
+        }
     }
 }
