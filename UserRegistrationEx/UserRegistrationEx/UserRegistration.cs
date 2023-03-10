@@ -25,5 +25,16 @@ namespace UserRegistrationEx
                 Console.WriteLine("It is not valid.");
             }
         }
+        public void ValidateLastName(string lastName)
+        {
+            if (registrationModels.Any(x => x.lastName.IsMatch(lastName)))
+            {
+                Console.WriteLine("It is valid.");
+            }
+            else
+            {
+                Console.WriteLine("It is not valid.");
+            }
+        }
     }
 }

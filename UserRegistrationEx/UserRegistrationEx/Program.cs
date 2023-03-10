@@ -12,6 +12,7 @@ namespace UserRegistrationEx
         {
             UserRegistration userRegistration = new UserRegistration();
             userRegistration.ValidateFirstName("Rohan");
+            userRegistration.ValidateLastName("Shewale");
             Console.ReadKey();
         }
     }

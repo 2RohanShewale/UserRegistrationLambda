@@ -10,5 +10,6 @@ namespace UserRegistrationEx
     public class UserRegistrationModel
     {
         public Regex firstName = new Regex(@"^[A-Z][a-z]{3,}?");
+        public Regex lastName = new Regex(@"^[A-Z][a-z]{3,}?");
     }
 }
