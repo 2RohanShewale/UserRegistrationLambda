@@ -91,5 +91,16 @@ namespace UserRegistrationEx
                 Console.WriteLine("It is not valid.");
             }
         }
+        public void ValidatePasswordFour(string password)
+        {
+            if (registrationModels.Any(x => x.PasswordRuleFour.IsMatch(password)))
+            {
+                Console.WriteLine("It is valid.");
+            }
+            else
+            {
+                Console.WriteLine("It is not valid.");
+            }
+        }
     }
 }

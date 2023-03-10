@@ -18,6 +18,7 @@ namespace UserRegistrationEx
             userRegistration.ValidatePasswordOne("asdf12#4");
             userRegistration.ValidatePasswordTwo("asdF12#f");
             userRegistration.ValidatePasswordThree("asdF12#f");
+            userRegistration.ValidatePasswordFour("asdF12f$");
             Console.ReadKey();
         }
     }
