@@ -14,6 +14,7 @@ namespace UserRegistrationEx
             userRegistration.ValidateFirstName("Rohan");
             userRegistration.ValidateLastName("Shewale");
             userRegistration.ValidateEmail("rohanshewale50@gmail.com");
+            userRegistration.ValidatePhoneNumber("91 1234567890");
             Console.ReadKey();
         }
     }
