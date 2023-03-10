@@ -69,5 +69,16 @@ namespace UserRegistrationEx
                 Console.WriteLine("It is not valid.");
             }
         }
+        public void ValidatePasswordTwo(string password)
+        {
+            if (registrationModels.Any(x => x.PasswordRuleTwo.IsMatch(password)))
+            {
+                Console.WriteLine("It is valid.");
+            }
+            else
+            {
+                Console.WriteLine("It is not valid.");
+            }
+        }
     }
 }

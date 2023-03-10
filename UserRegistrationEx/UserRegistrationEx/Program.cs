@@ -16,6 +16,7 @@ namespace UserRegistrationEx
             userRegistration.ValidateEmail("rohanshewale50@gmail.com");
             userRegistration.ValidatePhoneNumber("91 1234567890");
             userRegistration.ValidatePasswordOne("asdf12#4");
+            userRegistration.ValidatePasswordTwo("asdF12#f");
             Console.ReadKey();
         }
     }
